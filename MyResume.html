@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            background: linear-gradient(to bottom right, #ab963f, #485e37);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: #fff;
+            color: black;
+            text-align: right;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        nav {
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+        nav a {
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #fff;
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            margin: 0 0.5rem;
+            font-size: 1.2rem;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        nav a:hover {
+            transform: scale(1.1);
+            box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .card {
+            display: inline-block;
+            background: white;
+            margin: 1rem;
+            padding: 1rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            background: #485e37;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Resume</h1>
+    </header>
+    <section id="summary">
+         <div class="card">
+            <h3>Personal Information</h3>
+            <p><strong>Age:</strong> 18</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Date of Birth:</strong> August 4, 2006</p>
+            <p><strong>Civil Status:</strong> Single</p>
+            <p><strong>Nationality:</strong> Filipino</p>
+        </div>
+    </section>
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Job Title 1</h3>
+            <p>South Imus Specialist Hospital</p>
+            <p>Duration: Mar 1, 2024 - Mar 12, 2024</p>
+            <p>Key achievements: Helped managing mentally challenged individuals and improved their collaboration.</p>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Southern Philippines Institute of Science & Technology</h3>
+            <p>Location: Imus, Cavite</p>
+            <p>Duration: 2022-2024</p>
+        </div>
+        <div class="card">
+            <h3>General Thomas Mascardo National High School</h3>
+            <p>Location: Imus, Cavite</p>
+            <p>Duration: 2018-2021</p>
+        </div>
+        <div class="card">
+            <h3>Malagasang 1-C Elementary School</h3>
+            <p>Location: Imus, Cavite</p>
+            <p>Duration: 2012-2017</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="card">
+            <p>- Creative problem solving</p>
+            <p>- Team leadership</p>
+            <p>- Adobe Photoshop, Illustrator</p>
+            <p>- Web development (HTML, CSS)</p>
+        </div>
+    </section>
+      <section>
+        <button onclick="goBack()">Go Back</button>
+    </section>
+     <footer>
+    </footer>
+     <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            background: linear-gradient(to top right, #ab963f, #485e37);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: #fff;
+            color: black;
+            text-align: right;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .card {
+            display: inline-block;
+            background: white;
+            margin: 1rem;
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background: #485e37;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <section>
+        <h2>Personal Details</h2>
+        <div class="card">
+            <p><strong>Name:</strong> [Your Name]</p>
+            <p><strong>Age:</strong> 17</p>
+            <p><strong>Gender:</strong> Male</p>
+            <p><strong>Date of Birth:</strong> August 4, 2006</p>
+            <p><strong>Nationality:</strong> Filipino</p>
+        </div>
+    </section>
+    <section>
+        <h2>Hobbies & Interests</h2>
+        <div class="card">
+            <ul>
+                <li>Playing MOBA</li>
+                <li>Listening to Music</li>
+                <li>Her</li>
+                <li>Exploring Technology</li>
+                <li>Traveling</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>Family & Friends</h2>
+        <div class="card">
+            <p>I come from a close-knit family who has always supported me in every step of my journey, I am the eldest of the three children. My friends identify themselves as Transgender/Bisaya (most of them), pero goods lang</p>
+        </div>
+    </section>
+    <section>
+        <h2>Goals & Aspirations</h2>
+        <div class="card">
+            <p>My dream is to set a simple life in the province with my family (prefferably near to the ocean), away from the stressfull lifestyle of the city life.</p>
+        </div> 
+    </section>
+      <section>
+        <button onclick="goBack()">Go Back</button>
+    </section>
+    <footer>
+    </footer>
+     <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

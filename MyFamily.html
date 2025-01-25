@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+            background: linear-gradient(to bottom right, #ab963f, #485e37);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background: #ffffff;
+            color: black;
+            text-align: right;
+            padding: 2rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .card {
+            display: inline-block;
+            background: white;
+            margin: 1rem;
+            padding: 1.5rem;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: left;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #fffff;
+        }
+        footer {
+            background: #000000;
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Family</h1>
+    </header>
+    <section>
+        <h2>Family Members</h2>
+<img src="family.jpg" width="100"
+        <div class="card">
+        <div class="card">
+             <h3>Parents</h3>
+            <p><strong>Father:</strong> Adonis T. Caldeo</p>
+            <p><strong>Mother:</strong> Ramme Lyn B. Caldeo</p>
+        </div>
+        <div class="card">
+            <h3>Siblings</h3>
+            <ul>
+                <li>Me</li>
+                <li>Dhoneth Lyn B. Caldeo</li>
+                <li>Dhona Lhunizz B. Caldeo</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <h2>Family Values</h2>
+        <div class="card">
+            <p>Our family believes in love, god, and support for one another. We always strive to maintain strong bonds and cherish our moments together.</p>
+        </div>
+    </section>
+    <section>
+        <h2>Favorite Family Activities</h2>
+        <div class="card">
+            <ul>
+                <li>Night Prayers</li>
+                <li>Yearly Vacation</li>
+                <li>Traveling to new places</li>
+                <li>Cooking and enjoying meals together (on thursdays)</li>
+                <li>Celebrating special occasions</li>
+            </ul>
+        </div>
+    </section>
+    <section>
+        <button onclick="goBack()">Go Back</button>
+    </section>
+    <footer>
+    </footer>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
